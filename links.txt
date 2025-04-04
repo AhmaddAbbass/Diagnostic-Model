@@ -1,0 +1,6 @@
+https://data.mendeley.com/datasets/zr7vgbcyr2/1
+
+https://huggingface.co/datasets/BI55/MedText/viewer/default/train?f[Completion][min]=400&f[Completion][max]=463&f[Completion][transform]=length
+
+https://github.com/google-research-datasets/scin?tab=readme-ov-file
+
