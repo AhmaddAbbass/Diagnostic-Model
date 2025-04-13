@@ -1,0 +1,201 @@
+Unnamed: 0,label,text,cluster,Disease name,Text
+0.0,Psoriasis,"I have been experiencing a skin rash on my arms, legs, and torso for the past few weeks. It is red, itchy, and covered in dry, scaly patches.",2,,
+1.0,Psoriasis,"My skin has been peeling, especially on my knees, elbows, and scalp. This peeling is often accompanied by a burning or stinging sensation.",1,,
+2.0,Psoriasis,"I have been experiencing joint pain in my fingers, wrists, and knees. The pain is often achy and throbbing, and it gets worse when I move my joints.",0,,
+3.0,Psoriasis,"There is a silver like dusting on my skin, especially on my lower back and scalp. This dusting is made up of small scales that flake off easily when I scratch them.",1,,
+4.0,Psoriasis,"My nails have small dents or pits in them, and they often feel inflammatory and tender to the touch. Even there are minor rashes on my arms.",2,,
+5.0,Psoriasis,The skin on my palms and soles is thickened and has deep cracks. These cracks are painful and bleed easily.,1,,
+6.0,Psoriasis,"The skin around my mouth, nose, and eyes is red and inflamed. It is often itchy and uncomfortable. There is a noticeable inflammation in my nails.",2,,
+7.0,Psoriasis,My skin is very sensitive and reacts easily to changes in temperature or humidity. I often have to be careful about what products I use on my skin.,1,,
+8.0,Psoriasis,"I have noticed a sudden peeling of skin at different parts of my body, mainly arms, legs and back. Also, I face severe joint pain and skin rashes.",0,,
+9.0,Psoriasis,"The skin on my genitals is red and inflamed. It is often itchy, burning, and uncomfortable. There are rashes on different parts of the body too.",2,,
+10.0,Psoriasis,"I have experienced fatigue and a general feeling of malaise. I often feel tired and have a lack of energy, even after a good night's sleep.",0,,
+11.0,Psoriasis,"The rash on my skin has spread to other parts of my body, including my chest and abdomen. It is itchy and uncomfortable, and it is often worse at night. I am also facing skin peeling.",0,,
+12.0,Psoriasis,The rash on my skin is worse in the winter months when the air is dry. I find that I have to moisturize more frequently and use humidifiers to keep my skin hydrated.,1,,
+13.0,Psoriasis,"I have experienced difficulty sleeping due to the itching and discomfort caused by the rash. There are small dents in my nails, which is really concerning.",2,,
+14.0,Psoriasis,"My skin is prone to infections due to dry, flaky patches. I am experiencing a strong pain in my joints. The skin on my knees and elbows is starting to peel off.",1,,
+15.0,Psoriasis,"I am starting to have rashes on my skin. The rash often bleeds when I scratch or rub it. Moreover, I have noticed small dents in my nails.",0,,
+16.0,Psoriasis,"I have noticed that my skin has become more sensitive than it used to be. There is a silver like dusting on my skin, especially on my back and elbows.",1,,
+17.0,Psoriasis,"I am worried about the constant peeling of the skin on my palm, elbow and knee. I have developed rashes on my arms, which itch if I touch them. All of these are making my life quite discomforting and miserable.",0,,
+18.0,Psoriasis,"There is strange pain in my joints. Also, I have noticed strange peeling of skin in different parts of my body. I am afraid there is something wrong going on with my body.",0,,
+19.0,Psoriasis,"My nails have small dents on them. Even my joints have started to pain severely. There is a silver like dusting on my skin, particularly in my back.",0,,
+20.0,Psoriasis,"The rashes on my skin are not healing. Moreover, I have noticed a sudden peeling of the skin, especially the skin on my elbows and knees. I am really worried about this.",1,,
+21.0,Psoriasis,"For the past few weeks, I've had a skin rash on my arms, legs, and chest. It's red and irritating, with dry, scaly spots. I have a strange pain in my joints too.",0,,
+22.0,Psoriasis,"My skin is peeling, particularly on my knees, elbows, and scalp. This peeling is frequently accompanied by a stinging or burning feeling.",1,,
+23.0,Psoriasis,"I'm having joint discomfort in my fingers, wrists, and knees. The pain is frequently aching and throbbing, and it worsens when I move my joints.",1,,
+24.0,Psoriasis,"My skin has a silvery film, particularly on my back, arms and scalp. This dusting is composed of tiny scales that easily peel off when scratched.",1,,
+25.0,Psoriasis,"I have red and inflammatory skin around my mouth, nose, and eyes. It is frequently irritating and unpleasant. Recently, it has got very painful.",2,,
+26.0,Psoriasis,My skin is extremely sensitive and quickly irritated by changes in temperature or humidity. My nails have developed dents on them. I am worried about this sudden change.,2,,
+27.0,Psoriasis,"I've seen a sudden peeling of skin on various regions of my body, mostly my arms, legs, and back. In addition, I have significant joint pain and skin rashes. The rash is spreading to different parts of my body.",0,,
+28.0,Psoriasis,"My genital skin is red and irritated. It is frequently irritating, burning, and unpleasant. There are also rashes in various places of the body. Also, I have a strange pain in my joints.",0,,
+29.0,Psoriasis,"I've had trouble sleeping because of the itching and pain produced by the rash. My nails have little dents, which is really alarming. There is a noticeable inflammation in my nails.",2,,
+30.0,Psoriasis,"Because of dry, flaky areas on my skin, I am prone to infections. My joints are in excruciating agony. The skin on my knees and elbows is beginning to flake.",1,,
+31.0,Psoriasis,"My skin is breaking out in rashes. When I scratch or rub the rash, it frequently bleeds. In addition, I've observed little dents in my nails. There is a noticeable inflammation in my nails.",2,,
+32.0,Psoriasis,"I've observed that my skin is more sensitive now than it used to be. My skin has a silvery film, especially on my back and elbows.",1,,
+33.0,Psoriasis,"My palms and soles have grown and developed severe fissures. These cracks are unpleasant and frequently bleed. Also, the skin is starting to peel off.",1,,
+34.0,Psoriasis,"My nails are starting to have small pits on them. I am worried and don't know what is causing it. Also, my joints pain and there are rashes on my arms and back.",0,,
+35.0,Psoriasis,"There is a silver like dusting on my skin. Moreover, the skin on my arms and back are starting to peel off. This is strange and really concerning me.",0,,
+36.0,Psoriasis,"My skin rash has extended to other areas of my body, including my chest and belly. It is irritating and unpleasant, and it is frequently worst at night. I'm also experiencing skin flaking.",1,,
+37.0,Psoriasis,"My skin rash gets worse in the winter when the air is dry. To keep my skin moisturized, I have to moisturize more regularly and use humidifiers. I am also facing joint pain.",1,,
+38.0,Psoriasis,I've had trouble sleeping because of the itching and pain produced by the rash. My nails have little dents. I am also experiencing skin peeling in different parts of my body.,0,,
+39.0,Psoriasis,"My skin is peeling in places, especially on my knees, elbows, and arms. This peeling is often accompanied by a painful or burning sensation. I am also developing small dents on my nails, which is really concerning.",1,,
+40.0,Psoriasis,"My skin has a silvery layer over it, especially on my back and arms. This dusting is made up of small scales that peel off readily when rubbed. Also, there are rashes all over my body.",0,,
+41.0,Psoriasis,"My arms, face and back are all red and irritated. It is frequently irritating and unpleasant. My nails have a strange inflammation and have developed small dents. I have never seen anything like this.",2,,
+42.0,Psoriasis,"I've had trouble sleeping because of the itching and pain produced by the rash. My nails have little dents, which is really alarming. Moreover, my joints pain everyday and I have no idea what is causing it.",0,,
+43.0,Psoriasis,My fingers and soles have pretty thick skin that is cracked severely. These fractures hurt and bleed frequently. The fractures are itchy and covered with scales.,2,,
+44.0,Psoriasis,"My skin has changed from being less sensitive to being more sensitive. My skin has a silvery coating, especially on my back, elbows and knees.",1,,
+45.0,Psoriasis,"My nails are slightly dented. Even my joints are now experiencing excruciating discomfort. My skin has a silver-like powder, especially on my back and elbows. ",1,,
+46.0,Psoriasis,"I've had trouble falling asleep because of the rash's pain and itching. The skin on my fingers are starting to peel off. My nails have a few tiny cracks, which is really worrying. ",2,,
+47.0,Psoriasis,"My joints are experiencing an unusual discomfort. Additionally, I've experienced weird skin peeling in various places on my body. I'm concerned that something is wrong with my body. ",0,,
+48.0,Psoriasis,"I am starting to have rashes on my arms and neck. The rash often bleeds and hurts when I scratch it. I have also developed small dents in my nails, which is very strange.",0,,
+49.0,Psoriasis,"Because of dry, flaky areas on my skin, I am prone to infections. My joints are in extreme pain . My knees and elbows' skin are starting to peel off.",1,,
+,,,0,Psoriasis,"iodine have been experiencing joint hurting in my finger , wrists , and knees . The hurting be often achy and throbbing , and information technology get worse when I move my joint ."
+,,,0,Psoriasis,"I have been experiencing joint pain in my fingers , articulatio radiocarpea , and knees . The hurting is oftentimes achy and pounding , and it gets worse when atomic number 53 move my joints ."
+,,,0,Psoriasis,"I have be experiencing articulation pain in my fingers , wrist joint , and knees . The pain be oftentimes achy and pounding , and it gets worse when I move my joints ."
+,,,0,Psoriasis,"I have notice a sudden peeling of skin astatine different parts of my body , mainly weapons system , legs and back . as well , I face terrible joint pain and cutis rashes ."
+,,,0,Psoriasis,"I wealthy person noticed a sudden desquamation of skin at different parts of my body , mainly arms , legs and back . Also , I face severe joint pain and skin rashes ."
+,,,0,Psoriasis,"I wealthy person noticed a sudden shedding of skin at different parts of my body , mainly arms , legs and back . Also , iodine face severe articulatio pain and skin rashes ."
+,,,0,Psoriasis,"I rich person experienced fatigue and a general feeling of uneasiness . I often feel tired and have angstrom want of energy , even after a good dark 's slumber ."
+,,,0,Psoriasis,"atomic number 53 wealthy person experience fatigue and angstrom general feeling of malaise . I oft feel pall and wealthy person a lack of free energy , eventide after a good dark 's sleep ."
+,,,0,Psoriasis,"iodine have experience tiredness and a general feeling of malaise . atomic number 53 oft feel tired and have a lack of free energy , eve after angstrom unit good dark 's sleep ."
+,,,0,Psoriasis,"The rash on my tegument has spread to other parts of my body , including my chest and belly . It is itchy and uncomfortable , and it be oftentimes worse astatine night . I am also facing cutis desquamation ."
+,,,0,Psoriasis,"The efflorescence on my skin has spread to other parts of my physical structure , include my chest and abdomen . It is itchy and uncomfortable , and it is often worse at night . I am as well facing cutis desquamation ."
+,,,0,Psoriasis,"The roseola on my tegument has spreading to other parts of my body , include my pectus and belly . information technology is itchy and uncomfortable , and it be often worse at dark . I am also facing skin peeling ."
+,,,0,Psoriasis,"atomic number 53 am starting to have efflorescence on my skin . The roseola often shed blood when iodine scratch Oregon rub it . Moreover , iodin rich person noticed small dent in my nails ."
+,,,0,Psoriasis,"I am starting to wealthy person rashes on my skin . The rash oft bleeds when atomic number 53 scratch or hang-up it . Moreover , I have noticed small dents in my nails ."
+,,,0,Psoriasis,"I americium starting to have skin rash on my skin . The rash often shed blood when atomic number 53 scratch or hitch it . Moreover , I have noticed small dents in my nails ."
+,,,0,Psoriasis,"I atomic number 95 worried about the constant peeling of the skin on my palm , human elbow and knee . atomic number 53 have developed roseola on my arms , which itch if I touch them . All of these are devising my life rather discomforting and wretched ."
+,,,0,Psoriasis,"I atomic number 95 worried about the constant peeling of the skin on my palm , elbow and knee . I have developed roseola on my munition , which itch if atomic number 53 touch them . All of these are making my life quite discomforting and miserable ."
+,,,0,Psoriasis,"iodine am worried astir the constant peeling of the cutis on my palm , elbow and knee . iodin have developed rash on my arms , which scabies if I touch them . All of these ar making my life quite discomforting and miserable ."
+,,,0,Psoriasis,"There be strange hurting inch my joints . likewise , I have discover strange peeling of skin in different parts of my physical structure . I atomic number 95 afraid there is something wrong departure on with my organic structure ."
+,,,0,Psoriasis,"There is strange hurting inch my joints . Also , I rich person noticed strange peeling of skin in different parts of my physical structure . I am afraid there is something wrong going on with my body ."
+,,,0,Psoriasis,"There be unusual hurting in my articulatio . besides , I wealthy person detect strange peeling of skin inch different parts of my organic structure . atomic number 53 americium afraid there be something wrong going on with my body ."
+,,,0,Psoriasis,"My nails wealthy person small dents on them . Even my joints have started to pain severely . There is angstrom Ag like dusting on my skin , particularly in my back ."
+,,,0,Psoriasis,"My nails rich person small dents on them . Even my joints rich person start out to hurting badly . There is angstrom unit silver like dusting on my skin , especially in my dorsum ."
+,,,0,Psoriasis,"My nails have small dent on them . Even my articulatio wealthy person started to pain severely . There is a silver like dust on my skin , particularly in my back ."
+,,,0,Psoriasis,"For the past few weeks , iodine 've had angstrom unit skin rash on my arms , legs , and thorax . information technology 's redness and get at , with dry , scurfy spots . I have angstrom unit strange pain in my articulatio too ."
+,,,0,Psoriasis,"For the past times few weeks , I 've had a skin rash on my arms , legs , and chest . information technology 's red and irritating , with dry , scaly spots . iodin have a strange pain in my articulation too ."
+,,,0,Psoriasis,"For the past few hebdomad , I 've had angstrom tegument rash on my arms , legs , and pectus . It 's redness and irritating , with dry , scaly spots . I wealthy person angstrom unit strange pain inch my joints too ."
+,,,0,Psoriasis,"iodin 've seen angstrom sudden peeling of skin on various regions of my body , mostly my arms , legs , and back . In addition , I have important joint hurting and cutis rashes . The rash is spreading to different parts of my body ."
+,,,0,Psoriasis,"I 've seen a sudden peeling of skin on various regions of my body , mostly my weaponry , legs , and back . inch addition , I have important articulation pain and tegument rashes . The rash is spreading to different parts of my body ."
+,,,0,Psoriasis,"I 've seen a sudden peeling of skin on various part of my body , mostly my arms , legs , and dorsum . In add-on , I have significant joint pain and skin rashes . The efflorescence be spread to different parts of my body ."
+,,,0,Psoriasis,"My genital skin is redness and get to . It be frequently irritating , combustion , and unpleasant . There are besides rashes in various places of the physical structure . Also , I have angstrom strange pain inch my joints ."
+,,,0,Psoriasis,"My genital tegument is red and irritated . information technology be frequently irritating , burning , and unpleasant . There are also rashes inch assorted places of the body . Also , iodine have angstrom unit strange pain in my joints ."
+,,,0,Psoriasis,"My genital skin is red and irritated . It is oft annoy , combustion , and unpleasant . There are also skin rash in various places of the organic structure . Also , atomic number 53 wealthy person a strange hurting inch my joints ."
+,,,0,Psoriasis,"My nail ar starting to have small cavity on them . I am worried and brawl n't know what is causing it . Also , my joints pain and there ar skin rash on my arms and back ."
+,,,0,Psoriasis,"My nails are starting to rich person small pits on them . I atomic number 95 worry and do n't know what is causing it . Also , my joints hurting and there are efflorescence on my munition and dorsum ."
+,,,0,Psoriasis,"My nails ar starting to have small pits on them . atomic number 53 americium worried and do n't know what be causation it . Also , my joints pain and there are rashes on my weapons system and dorsum ."
+,,,0,Psoriasis,"There is a Ag like dusting on my skin . furthermore , the cutis on my arms and back ar starting to peel off . This is strange and really concern me ."
+,,,0,Psoriasis,"There be angstrom silver the likes of dusting on my skin . what is more , the tegument on my arms and back are start to peel off . This be strange and genuinely concerning me ."
+,,,0,Psoriasis,"There is a silver like dusting on my skin . Moreover , the skin on my arms and back are starting to Sir Robert Peel off . This is strange and really concerning me ."
+,,,0,Psoriasis,I 've had trouble sleeping because of the itch and pain bring forth by the rash . My nail wealthy person little dents . I americium besides experiencing tegument shedding in different parts of my physical structure .
+,,,0,Psoriasis,I 've have got problem sleeping because of the itching and pain produce by the skin rash . My nail wealthy person little dent . I am too see cutis peeling in different parts of my organic structure .
+,,,0,Psoriasis,I 've had trouble sleeping because of the itch and pain produced by the efflorescence . My nails rich person little dents . I am also experiencing skin shedding in different parts of my body .
+,,,0,Psoriasis,"My skin has angstrom silvern layer over it , especially on my back and arms . This dust is do up of small graduated table that peel off readily when rub . Also , there are rashes all over my body ."
+,,,0,Psoriasis,"My tegument has a silvern layer over it , particularly on my back and munition . This dust is make up of small scales that peel off readily when rubbed . Also , there are skin rash all over my body ."
+,,,0,Psoriasis,"My skin HA a silvern layer over it , especially on my back and arms . This dusting be made up of small scales that peel off readily when rubbed . besides , there are rashes all over my body ."
+,,,0,Psoriasis,"I 've had trouble sleeping because of the itchiness and pain produced by the rash . My nail have little dent , which is really alarming . Moreover , my joints pain everyday and I have no idea what is causing information technology ."
+,,,0,Psoriasis,"I 've have got trouble sleeping because of the itching and hurting produced by the rash . My nails have little dent , which is truly alarming . Moreover , my joints pain routine and I have no thought what is causing it ."
+,,,0,Psoriasis,"iodin 've had trouble sleeping because of the itchiness and hurting bring forth by the rash . My nail wealthy person little dents , which is genuinely alarming . furthermore , my articulation pain unremarkable and I have no idea what is causing it ."
+,,,0,Psoriasis,"My articulatio ar experiencing an unusual uncomfortableness . Additionally , I 've experienced weird skin shedding in various place on my body . I 'm bear on that something is wrongfulness with my physical structure ."
+,,,0,Psoriasis,"My joints ar experience an unusual discomfort . to boot , I 've experienced weird cutis peeling in various places on my physical structure . iodin 'm concerned that something is wrongfulness with my body ."
+,,,0,Psoriasis,"My joints ar experiencing an unusual discomfort . Additionally , I 've experienced Wyrd cutis peeling inch assorted places on my physical structure . I 'm concerned that something be wrongfulness with my body ."
+,,,0,Psoriasis,"atomic number 53 am starting to wealthy person rashes on my arms and neck . The rash frequently bleeds and hurts when iodin scratch information technology . I have also developed small dents inch my nail , which be very strange ."
+,,,0,Psoriasis,"iodin am start to have roseola on my arms and neck . The rash oftentimes bleeds and hurts when I scratch it . I rich person also developed small dents in my nails , which be very strange ."
+,,,0,Psoriasis,"I am starting to have rashes on my arms and neck . The rash ofttimes hemorrhage and hurts when I scrape information technology . I have also developed small dents in my nails , which is very unusual ."
+,,,1,Psoriasis,"My cutis has been peeling , specially on my knees , elbows , and scalp . This peeling is often attach to past a burning or stinging sensation ."
+,,,1,Psoriasis,"My skin hour angle been peeling , especially on my genu , elbows , and scalp . This peeling is ofttimes accompanied by a burning or stinging esthesis ."
+,,,1,Psoriasis,"My skin has been peeling , particularly on my knees , elbows , and scalp . This peeling is often accompanied by angstrom combustion or stinging sense impression ."
+,,,1,Psoriasis,"There is a silver the like dusting on my skin , especially on my lower back and scalp . This dusting be made up of small scales that flake off easily when atomic number 53 scratch them ."
+,,,1,Psoriasis,"There is a silver the likes of dust on my skin , especially on my lower back and scalp . This dusting be made up of small scales that flake off easily when I scrape them ."
+,,,1,Psoriasis,"There is a silver like dust on my skin , especially on my lower back and scalp . This dusting is make up of small scales that snowflake off easily when I scrape them ."
+,,,1,Psoriasis,The cutis on my palms and soles be thickened and hour angle deep cracks . These crack ar painful and bleed easily .
+,,,1,Psoriasis,The skin on my palm and soles is thickened and has deep crevice . These cracks ar painful and bleed easily .
+,,,1,Psoriasis,The skin on my palms and soles is thickened and has deep fissure . These fissure are painful and bleed easily .
+,,,1,Psoriasis,My skin is very sensitive and react easy to changes inch temperature Oregon humidity . I often rich person to be careful about what ware iodin use on my skin .
+,,,1,Psoriasis,My skin is very spiritualist and reacts easy to changes in temperature or humidity . iodine often have to atomic number 4 careful astir what products atomic number 53 use on my skin .
+,,,1,Psoriasis,My cutis is very sensitive and reacts easy to changes in temperature Beaver State humidity . I often have to be careful astir what products I use on my skin .
+,,,1,Psoriasis,The roseola on my tegument is worse in the winter months when the air is prohibitionist . I find that I wealthy person to moisturize more frequently and use humidifiers to livelihood my skin hydrated .
+,,,1,Psoriasis,The rash on my skin be worse inch the wintertime calendar month when the air is dry . I breakthrough that I have to moisturise more frequently and use humidifiers to keep my skin hydrated .
+,,,1,Psoriasis,The rash on my cutis is worse inch the winter months when the air be prohibitionist . I breakthrough that I have to moisturise Sir Thomas More often and use humidifiers to keep my tegument hydrate .
+,,,1,Psoriasis,"My skin is prone to infection due to dry , flakey patches . atomic number 53 am experiencing a strong pain in my articulation . The skin on my knees and elbows be starting to peel dispatch ."
+,,,1,Psoriasis,"My tegument is prone to infection due to dry , flaky patches . atomic number 53 atomic number 95 experiencing a strong pain inch my joints . The skin on my knees and elbows is starting to peel off ."
+,,,1,Psoriasis,"My skin is prone to infections due to prohibitionist , flaky fleck . I am see angstrom unit strong pain in my articulation . The skin on my knees and elbows be starting to peel off ."
+,,,1,Psoriasis,"I have noticed that my tegument has become more sensitive than it used to be . There is a silver like dusting on my skin , especially on my back and human elbow ."
+,,,1,Psoriasis,"I wealthy person find that my tegument has become Sir Thomas More sensitive than it used to be . There is angstrom unit silver like dusting on my skin , especially on my back and elbows ."
+,,,1,Psoriasis,"I have observe that my skin hour angle become more sensitive than information technology utilise to atomic number 4 . There be a silver like dust on my tegument , especially on my back and elbows ."
+,,,1,Psoriasis,"The rashes on my cutis ar not healing . Moreover , I have observe a sudden peeling of the tegument , specially the tegument on my articulatio cubiti and knees . I am really worry about this ."
+,,,1,Psoriasis,"The roseola on my skin are not healing . Moreover , I wealthy person noticed angstrom sudden peeling of the cutis , specially the skin on my elbows and knees . atomic number 53 americium really worry about this ."
+,,,1,Psoriasis,"The rashes on my skin are not healing . Moreover , I have noticed a sudden desquamation of the skin , especially the tegument on my elbow and human knee . I am genuinely worried about this ."
+,,,1,Psoriasis,"My skin is peeling , peculiarly on my knees , elbow joint , and scalp . This desquamation is frequently accompanied by a sting or burning feeling ."
+,,,1,Psoriasis,"My skin is peeling , especially on my knees , elbow , and scalp . This peeling be frequently attach to by a stinging or burning feeling ."
+,,,1,Psoriasis,"My skin is shedding , particularly on my knees , elbows , and scalp . This peeling is ofttimes attach to by a stinging Oregon burning feeling ."
+,,,1,Psoriasis,"I 'm having articulation uncomfortableness in my finger , wrists , and knees . The pain be frequently aching and throbbing , and it worsens when I move my joints ."
+,,,1,Psoriasis,"atomic number 53 'm have got joint uncomfortableness in my fingers , wrists , and knees . The pain be oft aching and throbbing , and it worsens when iodin move my joints ."
+,,,1,Psoriasis,"I 'm hold joint discomfort in my finger , wrists , and knees . The hurting is frequently ache and throbbing , and it worsens when iodin move my joint ."
+,,,1,Psoriasis,"My skin has angstrom silvery movie , particularly on my back , arms and scalp . This dusting is composed of tiny scales that easily peel off when scratched ."
+,,,1,Psoriasis,"My skin has angstrom silvern film , specially on my back , arms and scalp . This dusting is compose of tiny scales that easily peel off when scratched ."
+,,,1,Psoriasis,"My skin has a silvery film , particularly on my back , weapons system and scalp . This dusting be composed of tiny scales that easy Robert Peel off when scratched ."
+,,,1,Psoriasis,"Because of dry , flaky areas on my skin , I atomic number 95 prone to infection . My joints are in excruciating agony . The cutis on my articulatio genus and elbows be beginning to flake ."
+,,,1,Psoriasis,"Because of prohibitionist , flaky area on my tegument , atomic number 53 am prone to infections . My joint ar inch excruciating agony . The skin on my knee and elbow be beginning to flake ."
+,,,1,Psoriasis,"Because of dry , flakey country on my skin , I atomic number 95 prone to infections . My joints are inch excruciating agony . The skin on my knees and elbows is beginning to snowflake ."
+,,,1,Psoriasis,"I 've detect that my skin is more sensitive now than it use to be . My skin HA angstrom unit silvern picture , especially on my dorsum and elbows ."
+,,,1,Psoriasis,"I 've observed that my skin be Sir Thomas More sensitive now than information technology used to beryllium . My tegument has a silvern film , peculiarly on my dorsum and elbows ."
+,,,1,Psoriasis,"atomic number 53 've observed that my cutis is more spiritualist now than it used to be . My skin HA a silvern picture , peculiarly on my dorsum and elbows ."
+,,,1,Psoriasis,"My palms and soles have grown and developed severe cranny . These cracks ar unpleasant and ofttimes bleed . Also , the cutis is start to peel off ."
+,,,1,Psoriasis,"My palms and soles wealthy person grown and develop severe chap . These cracks ar unpleasant and frequently bleed . Also , the skin is starting to Sir Robert Peel off ."
+,,,1,Psoriasis,"My palms and soles have grown and developed severe fissures . These cracks ar unpleasant and frequently bleed . Also , the skin is starting to peel off ."
+,,,1,Psoriasis,"My cutis roseola hour angle extended to other area of my physical structure , including my chest and belly . It be irritating and unpleasant , and information technology is oftentimes worst at night . I 'm also go through cutis flaking ."
+,,,1,Psoriasis,"My skin rash HA extended to other areas of my body , include my chest and belly . It is irritating and unpleasant , and it is frequently worst at night . iodine 'm also experiencing skin flake ."
+,,,1,Psoriasis,"My skin rash has extended to other areas of my body , include my chest and abdomen . information technology is rag and unpleasant , and information technology be frequently worst atomic number 85 night . I 'm besides experiencing skin flaking ."
+,,,1,Psoriasis,"My cutis rash gets worse inch the winter when the air is dry . To keep my skin moisturized , I have to moisturize more regularly and usage humidifiers . I am too facing joint pain ."
+,,,1,Psoriasis,"My skin efflorescence gets worse in the winter when the air is prohibitionist . To living my cutis moisturized , iodine have to humidify more regularly and utilisation humidifiers . I am also facing joint pain ."
+,,,1,Psoriasis,"My skin rash get worse in the winter when the air is dry . To keep my tegument humidify , I have to moisturize more regularly and use humidifiers . iodin am likewise facing articulatio hurting ."
+,,,1,Psoriasis,"My skin is shedding inch places , especially on my knees , elbow joint , and arms . This peeling is often attach to by angstrom painful or combustion sensation . I am also development small dents on my nail , which is genuinely concerning ."
+,,,1,Psoriasis,"My skin is peeling in spot , especially on my knees , cubital joint , and arms . This shedding is often accompanied by angstrom painful or combustion sensation . I am also developing small dent on my nails , which is truly concerning ."
+,,,1,Psoriasis,"My cutis be peeling inch places , particularly on my knees , elbows , and implements of war . This peeling is often accompanied by a painful or burning sense datum . iodin am also developing small dents on my nails , which be really concerning ."
+,,,1,Psoriasis,"My skin has alter from being less sensitive to being Sir Thomas More sensitive . My skin hour angle angstrom silvery coating , especially on my dorsum , elbows and knee joint ."
+,,,1,Psoriasis,"My skin HA changed from being less sensitive to existence Sir Thomas More sensitive . My tegument has a silvern coat , especially on my dorsum , articulatio cubiti and knees ."
+,,,1,Psoriasis,"My skin has changed from being less sensitive to being more sensitive . My tegument has angstrom unit silvery coat , especially on my back , elbows and knees ."
+,,,1,Psoriasis,"My nails are slightly dented . eventide my joints ar now experience rack discomfort . My skin hour angle a silver-like powder , especially on my back and elbows ."
+,,,1,Psoriasis,"My nails are slightly dented . Even my joints ar now experiencing excruciate discomfort . My tegument hour angle a silver-like pulverization , specially on my back and elbows ."
+,,,1,Psoriasis,"My nails are slightly dented . Even my joints ar now experiencing excruciating discomfort . My skin HA a silver-like pulverisation , especially on my back and elbows ."
+,,,1,Psoriasis,"Because of dry , flaky areas on my cutis , iodin am prone to infections . My joints are inch extreme pain . My knees and elbows ' skin are starting to peel off ."
+,,,1,Psoriasis,"Because of dry , flaky areas on my cutis , I am prone to infection . My joints ar inch extreme pain . My knees and elbows ' tegument are starting to peel polish off ."
+,,,1,Psoriasis,"Because of dry , flaky area on my cutis , iodine am prone to infections . My joint ar in extreme hurting . My knees and elbows ' skin are starting to peel hit ."
+,,,2,Psoriasis,"I have be see a cutis rash on my arms , legs , and body for the past few hebdomad . It is red , itchy , and covered in dry , scurfy speckle ."
+,,,2,Psoriasis,"atomic number 53 have been experiencing angstrom unit skin efflorescence on my arms , legs , and trunk for the past few week . It is red , itchy , and cover in dry , scabrous patches ."
+,,,2,Psoriasis,"I have been experiencing a skin rash on my implements of war , legs , and torso for the past few weeks . It is redness , itchy , and covered in dry , scaly patches ."
+,,,2,Psoriasis,"My nails have small dents or pits inch them , and they often feel inflammatory and stamp to the touch . Even there are minor rashes on my arms ."
+,,,2,Psoriasis,"My nails have small dents Beaver State pit in them , and they often feel inflammatory and tender to the touch . Even there ar minor rashes on my munition ."
+,,,2,Psoriasis,"My nail have small dents or pits inch them , and they frequently feel inflammatory and stamp to the touch . Even there are nipper rashes on my arms ."
+,,,2,Psoriasis,"The cutis about my mouth , nose , and eyes is red and inflame . It is often itchy and uncomfortable . There is a noticeable rubor in my nails ."
+,,,2,Psoriasis,"The skin around my mouth , nose , and eyes is red and inflame . It is frequently fretful and uncomfortable . There be a noticeable inflammation in my nail ."
+,,,2,Psoriasis,"The tegument around my oral fissure , olfactory organ , and eyes is redness and inflamed . It is often itchy and uncomfortable . There is angstrom noticeable inflammation in my nails ."
+,,,2,Psoriasis,"The skin on my genitals is red and inflamed . information technology be often itchy , combustion , and uncomfortable . There are efflorescence on different parts of the body to a fault ."
+,,,2,Psoriasis,"The cutis on my genitals be red and inflame . It is often itchy , combustion , and uncomfortable . There are rashes on different parts of the physical structure too ."
+,,,2,Psoriasis,"The skin on my genitals be red and inflamed . It is often itchy , burning , and uncomfortable . There are rashes on different parts of the physical structure excessively ."
+,,,2,Psoriasis,"I have experienced trouble sleeping due to the itch and discomfort caused by the rash . There ar small dents inch my nails , which is really have-to doe with ."
+,,,2,Psoriasis,"iodin rich person see difficulty sleeping due to the itching and discomfort make by the rash . There are small dents in my nails , which is really concerning ."
+,,,2,Psoriasis,"iodin rich person experienced trouble sleeping due to the itchiness and discomfort do by the rash . There are small dents in my nails , which be really concerning ."
+,,,2,Psoriasis,"I have red and inflammatory tegument around my mouth , olfactory organ , and eyes . information technology is frequently gravel and unpleasant . Recently , information technology has get very painful ."
+,,,2,Psoriasis,"atomic number 53 have red and inflammatory skin around my mouth , nose , and eyes . It is ofttimes irritating and unpleasant . Recently , information technology has got very painful ."
+,,,2,Psoriasis,"atomic number 53 have redness and inflammatory skin around my mouth , nose , and eyes . It is oftentimes get to and unpleasant . Recently , it has got very painful ."
+,,,2,Psoriasis,My skin be extremely sensitive and quickly irritated past changes in temperature Beaver State humidness . My nails have developed dents on them . I am worried astir this sudden change .
+,,,2,Psoriasis,My skin is extremely sensitive and apace irritated by changes in temperature or humidness . My nails have develop dent on them . I am worried about this sudden change .
+,,,2,Psoriasis,My tegument is extremely sensitive and quickly nark by changes in temperature or humidity . My nail have developed dent on them . I am worried about this sudden change .
+,,,2,Psoriasis,"I 've had problem sleeping because of the itching and hurting produced by the rash . My nail have little dents , which is really alarming . There is angstrom unit noticeable redness inch my nails ."
+,,,2,Psoriasis,"I 've had trouble sleeping because of the itchiness and pain bring forth by the rash . My nails wealthy person little dent , which is really alarming . There be a noticeable inflammation in my nails ."
+,,,2,Psoriasis,"I 've had trouble sleeping because of the itching and hurting produced by the efflorescence . My nails have little dents , which is really appall . There is angstrom noticeable rubor in my nails ."
+,,,2,Psoriasis,"My tegument be breakage out inch rashes . When I excoriation or snag the rash , it frequently bleeds . In add-on , atomic number 53 've observed little dents in my nails . There be a noticeable inflammation in my nails ."
+,,,2,Psoriasis,"My skin is break out inch efflorescence . When I scratch or rub the rash , information technology ofttimes bleeds . inch addition , I 've observed little dents in my nails . There is a noticeable inflammation inch my nails ."
+,,,2,Psoriasis,"My skin be breaking out in rashes . When I excoriation or rub the rash , it oft bleeds . In addition , I 've notice little dents in my nail . There is a noticeable inflammation inch my nails ."
+,,,2,Psoriasis,"My arms , face and back ar all red and irritated . It is frequently irritating and unpleasant . My nails have a strange inflammation and rich person develop small dents . I rich person never seen anything the likes of this ."
+,,,2,Psoriasis,"My arms , human face and back ar all red and irritated . It is frequently irritating and unpleasant . My nails have a strange inflammation and rich person developed small dents . I have ne'er see anything like this ."
+,,,2,Psoriasis,"My arms , face and back are all red and irritated . It be frequently devil and unpleasant . My nails wealthy person a strange redness and have developed small dents . I have ne'er seen anything like this ."
+,,,2,Psoriasis,My fingers and colloidal suspension have pretty thick tegument that be cracked severely . These fractures hurt and bleed frequently . The fracture are antsy and cover with scale .
+,,,2,Psoriasis,My fingers and soles have pretty thick cutis that is cracked severely . These fractures hurt and bleed oftentimes . The fractures ar itchy and covered with scale .
+,,,2,Psoriasis,My fingers and soles have pretty thick skin that be cracked severely . These fractures hurt and bleed frequently . The fractures are antsy and cover with graduated table .
+,,,2,Psoriasis,"I 've have got problem falling asleep because of the skin rash 's pain and itching . The tegument on my fingers ar starting to Sir Robert Peel slay . My nails have angstrom unit few tiny cracks , which be really badgering ."
+,,,2,Psoriasis,"I 've hold trouble falling asleep because of the roseola 's pain and itchiness . The skin on my fingers ar starting to peel murder . My nails have a few tiny scissure , which is genuinely worrying ."
+,,,2,Psoriasis,"I 've had problem falling asleep because of the rash 's pain and itchiness . The skin on my finger are starting to peel off . My nail have angstrom few diminutive cracks , which is genuinely worrying ."
