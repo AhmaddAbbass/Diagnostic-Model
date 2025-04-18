@@ -1,66 +1,29 @@
 import pandas as pd
 from pathlib import Path
-import sys
 
-def clean_df(df: pd.DataFrame) -> pd.DataFrame:
-    # 1) strip whitespace, lowercase all column names
-    df.columns = [c.strip().lower() for c in df.columns]
-    # 2) rename the two expected cols if they exist
-    rename_map = {}
-    if 'label' in df.columns:   rename_map['label'] = 'label'
-    if 'text' in df.columns:    rename_map['text']  = 'text'
-    df = df.rename(columns=rename_map)
-    # 3) drop rows that are entirely empty
-    return df.dropna(how='all')
+# --- Option A: Load from your merged Excel file ---
+merged_path = Path(__file__).parent / "merged_datasets_texts.xlsx"
+df = pd.read_excel(merged_path, engine="openpyxl", dtype=str)
 
-def main():
-    root = Path(__file__).parent / "datasets_texts"
-    if not root.exists():
-        print(f"ERROR: folder not found: {root}")
-        sys.exit(1)
+# --- Option B: Or, re-load & concatenate all your CSVs ---
+# root = Path(__file__).parent / "datasets_texts"
+# parts = []
+# for f in root.glob("*.csv"):
+#     parts.append(pd.read_csv(f, dtype=str))
+# df = pd.concat(parts, ignore_index=True)
 
-    csv_files = sorted(root.glob("*.csv"))
-    if not csv_files:
-        print("ERROR: No CSV files in datasets_texts")
-        sys.exit(1)
+# Make sure the 'label' column exists
+if 'label' not in df.columns:
+    raise KeyError("No 'label' column found in your data!")
 
-    frames = []
-    for path in csv_files:
-        try:
-            # read everything as str to avoid dtype surprises
-            df = pd.read_csv(path, encoding='utf-8', dtype=str)
-        except Exception as e:
-            print(f"⚠️  Skipping {path.name}: read error ({e})")
-            continue
+# Compute and print counts
+label_counts = df['label'].value_counts(dropna=False)
+print("Label counts:")
+print(label_counts)
 
-        df = clean_df(df)
-        if df.empty:
-            print(f"⚠️  Skipping {path.name}: no data after cleaning")
-            continue
-
-        disease = path.stem.strip()
-        df['disease'] = disease
-        frames.append(df)
-        print(f"✔ Loaded {path.name}: {len(df)} rows, cols={list(df.columns)}")
-
-    if not frames:
-        print("ERROR: No valid data to merge.")
-        sys.exit(1)
-
-    # 4) concat, sort, reorder
-    merged = pd.concat(frames, ignore_index=True, sort=False)
-    merged = merged.sort_values(by='disease').reset_index(drop=True)
-
-    # put disease first, then label & text if present
-    base_cols = ['disease', 'label', 'text']
-    cols = [c for c in base_cols if c in merged.columns] + \
-           [c for c in merged.columns if c not in base_cols]
-    merged = merged[cols]
-
-    # 5) write out
-    out = Path(__file__).parent / "merged_datasets_texts.xlsx"
-    merged.to_excel(out, index=False)
-    print(f"\n✅ Merged {len(frames)} files → {out} ({len(merged)} total rows)")
-
-if __name__ == "__main__":
-    main()
+# (Optional) Save the counts to a CSV or Excel:
+output = Path(__file__).parent / "label_counts.xlsx"
+label_counts.to_frame(name="count").reset_index()\
+            .rename(columns={'index':'label'})\
+            .to_excel(output, index=False)
+print(f"\n✅ Saved counts to {output}")
