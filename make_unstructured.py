@@ -22,7 +22,7 @@ CHECKFILE = ROOT / "last_done.txt"
 
 # ------------ budget --------------------------------------------------
 BUDGET_USD      = 5.00       # your $5 credit
-SAFETY_MARGIN   = 0.25       # stop at $4.75
+SAFETY_MARGIN   = 0       # stop at $4.75
 USD_PP_TOKEN    = 0.0005/1000
 USD_PC_TOKEN    = 0.0015/1000
 spent_usd       = 0.0
@@ -30,7 +30,7 @@ spent_usd       = 0.0
 # ------------ runtime knobs -------------------------------------------
 MODEL_NAME     = "gpt-3.5-turbo"
 N_EXAMPLES     = 1
-MAX_TOKENS_OUT = 60
+MAX_TOKENS_OUT = 125
 TEMPERATURE    = 0.6
 SLEEP_SECONDS  = 0.4       # ~150 req/min ≈52k TPM
 SAVE_EVERY     = 50
@@ -44,7 +44,7 @@ if CHECKFILE.exists() and START_ROW == 0:
     print(f"[Resume] starting at row {START_ROW}")
 
 # ------------ OpenAI client & key -------------------------------------
-api_key =  "put api token here"
+api_key =  "your_key"
 if not api_key:
     raise SystemExit("❌  Set OPENAI_API_KEY in your environment first.")
 client = OpenAI(api_key=api_key)
@@ -129,16 +129,24 @@ def sample_example(cat: str) -> str:
 
 def make_messages(facts, label, example):
     return [
-        {"role":"system",
-         "content":(
-            "You are a clinical scribe. Rewrite the given clinical facts "
-            "as ONE fluent paragraph for a doctor's note. Preserve every fact; add nothing."
-         )},
-        {"role":"user",
-         "content":(
-            f"Clinical facts:\n{facts.strip()}\n\n"
-            f"Example report for {label}:\n- {example}"
-         )}
+        {
+            "role": "system",
+            "content": (
+                "You are a patient describing your skin condition. "
+                "Given the structured medical facts below, write ONE descriptive paragraph "
+                "in a natural, patient-like voice. Mention all facts, but do NOT invent new ones. "
+                "You can be casual or expressive, but accurate. The goal is to sound like a real patient "
+                "reporting symptoms to a dermatologist."
+            ),
+        },
+        {
+            "role": "user",
+            "content": (
+                f"Clinical facts (structured key-value pairs):\n{facts.strip()}\n\n"
+                f"Here’s an example patient description for {label}:\n"
+                f"- {example}"
+            ),
+        },
     ]
 
 # ------------ chat + cost tracking ------------------------------------
