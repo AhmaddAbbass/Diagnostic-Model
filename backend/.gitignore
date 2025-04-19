@@ -1,0 +1,29 @@
+# ─── Secrets & env ─────────────────────────────────────────────
+# ignore your local env file
+.env
+.env.*
+
+# ─── Python artifacts ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ─── Uploads & data volumes ────────────────────────────────────
+# don’t check in user‑uploaded files or database data
+uploads/
+db_data/
+
+# ─── Docker Compose override ───────────────────────────────────
+# if you use an override file for local tweaks
+docker-compose.override.yml
+
+# ─── Logs & misc ───────────────────────────────────────────────
+*.log
+
+# ─── IDE / Editor files ────────────────────────────────────────
+.vscode/
+.idea/
+
+# ─── OS files ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
