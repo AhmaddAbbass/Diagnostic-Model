@@ -1,0 +1,14 @@
+# paths & data settings
+raw_dirs:
+  dermnet:  "/path/to/raw/dermnet"
+  scin:     "/path/to/raw/scin"
+  text_kaggle: "/path/to/raw/text_only"
+output_dir: "/path/to/derm-mmmodal"
+priority_subset:
+  labels: ["Eczema","Acne","Psoriasis", "..."]
+  top_k: 20
+split:
+  train: 0.70
+  val:   0.15
+  test:  0.15
+seed: 42

@@ -1,0 +1,24 @@
+# Multimodal fusion training
+data:
+  paired_excel: "/path/to/dataset_paired.xlsx"
+  real_synthetic_ratio: 0.5
+  batch_size: 32
+  num_workers: 4
+
+model:
+  fusion_head: "cross_attention"
+  hidden_dim:   512
+  num_blocks:   4
+
+loss:
+  lambda_ce:   1.0
+  lambda_nce:  0.1
+  lambda_kl:   0.01
+
+trainer:
+  max_epochs: 12
+  gpus: 1
+  precision: 16
+  dropout:
+    p_text: 0.25
+    p_image: 0.1
