@@ -133,10 +133,11 @@ Synthetic samples now live in `/data/synthetic/`.
 - **Image Encoder Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1HaOTOd2-AUBsBcR0aKt0yVqZQIahK7dq?usp=sharing>)  
 - **Text Encoder Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1GiuA1kWxFO24JizPNPhjUhS9NKCtKTK-?usp=sharing>)  
 - **Fusion Head Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1uykSJpjrYIoYHnpP3CQ5CMM5vMc5rOPk?usp=sharing>)
-- - **Data Preparation Notebooks**: Databalancer using K-means [Open in Colab](<https://colab.research.google.com/drive/1ftwkx6G5C_PKZUxX60mh_Xg15CF9Nznw?authuser=1>) ,
-  -   Synthetic data generator  [Open in Colab](<https://colab.research.google.com/drive/1Ls1F_6LXzSmSIxf5DspKMksRabS_bpEU?usp=sharing>) ,
-  -   datacleaner [Open in Colab](<https://colab.research.google.com/drive/1OrnjgdNaMpeso44aDfWCZ2D7z9qLwy80?usp=sharing>)  
-  -                                 
+- **Data Preparation Notebooks**:
+- -   Databalancer using K-means [Open in Colab](<https://colab.research.google.com/drive/1ftwkx6G5C_PKZUxX60mh_Xg15CF9Nznw?authuser=1>) ,
+- -   Synthetic data generator  [Open in Colab](<https://colab.research.google.com/drive/1Ls1F_6LXzSmSIxf5DspKMksRabS_bpEU?usp=sharing>) ,
+- -   datacleaner [Open in Colab](<https://colab.research.google.com/drive/1OrnjgdNaMpeso44aDfWCZ2D7z9qLwy80?usp=sharing>)  
+                                
 
 ---
 
