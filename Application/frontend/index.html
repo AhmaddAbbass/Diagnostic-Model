@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Derm-MMModal Demo</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="card">
+        <h1>Skin Disease&nbsp;Predictor</h1>
+        <form id="form">
+            <label>Upload image</label>
+            <input type="file" name="image" accept="image/*" />
+            <label>Describe your symptoms <span>(optional)</span></label>
+            <textarea name="text" rows="4" placeholder="e.g. itchy white patches"></textarea>
+            <button type="submit">Predict</button>
+        </form>
+        <pre id="output">Results will appear here…</pre>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

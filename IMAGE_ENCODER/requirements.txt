@@ -1,0 +1,7 @@
+albumentations==1.4.3
+tqdm==4.65.0
+torch>=2.1.0              # install either CPU or CUDA build via the extra‐index when you run pip
+torchvision>=0.16.0
+pandas==1.5.3
+openpyxl==3.1.2
+Pillow==11.2.0
