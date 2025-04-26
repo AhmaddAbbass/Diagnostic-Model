@@ -67,10 +67,10 @@ Synthetic samples now live in `/data/synthetic/`.
 │   └── sampler.py          # weighted sampling to correct class imbalance
 │
 ├── text_encoder/           # Scratch-trained Transformer text encoder
-│   ├── encoder.py
-│   ├── tokenization.py
-│   └── scheduler.py
-│
+│   ├── text encoder model.py
+│   ├── training.py
+│   ├── test.py
+│   └── Text_Encoder_README.txt
 └── README.md               # ← you’re here!
 ```
 
