@@ -98,7 +98,7 @@ Synthetic samples now live in `/data/synthetic/`.
 - **Objective**: Categorical cross-entropy on unstructured + synthetic text  
 - **Observation**: Very high validation accuracy (> 90%)—likely overfit to synthetic patterns  
 
-**Result**: Fast training in 5 epochs  
+**Result**: Fast training in 15 epochs  
 [▶️ Colab Notebook: Train Text Encoder](<https://colab.research.google.com/drive/1GiuA1kWxFO24JizPNPhjUhS9NKCtKTK-?usp=sharing>)
 
 ---
@@ -120,8 +120,8 @@ Synthetic samples now live in `/data/synthetic/`.
 | Stage               | Dataset                | Accuracy |
 | ------------------- | ---------------------- | -------- |
 | **Image-only probe**| image_only             | 71.3 % (val) / 69.8 % (test) |
-| **Text-only probe** | text_only + synthetic  | 84.4 % (val) / 83.1 % (test) |
-| **Fusion (GCA)**    | img_text + paired ECDF | **84 %** overall |
+| **Text-only probe** | text_only + synthetic  | 92.4 % (val) / 93.1 % (test) |
+| **Fusion (GCA)**    | img_text + paired ECDF | **83 %** overall |
 
 > *All models trained from scratch, no external checkpoints used.*
 
@@ -132,7 +132,7 @@ Synthetic samples now live in `/data/synthetic/`.
 - **Full Project Report (PDF)**: [Download here](<https://drive.google.com/uc?export=download&id=1l_dZ5z-d889mubzot3bb3gRelR-Z93Ck>)  
 - **Image Encoder Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1HaOTOd2-AUBsBcR0aKt0yVqZQIahK7dq?usp=sharing>)  
 - **Text Encoder Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1GiuA1kWxFO24JizPNPhjUhS9NKCtKTK-?usp=sharing>)  
-- **Fusion Head Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1uykSJpjrYIoYHnpP3CQ5CMM5vMc5rOPk?usp=sharing>)
+- **Fusion Head Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1T5JEcZo-JtXMUeKX5yxyRYm7SU9vD08s?usp=sharing>)
 - **Data Preparation Notebooks**:
 - -   Databalancer using K-means [Open in Colab](<https://colab.research.google.com/drive/1ftwkx6G5C_PKZUxX60mh_Xg15CF9Nznw?authuser=1>) ,
 - -   Synthetic data generator  [Open in Colab](<https://colab.research.google.com/drive/1Ls1F_6LXzSmSIxf5DspKMksRabS_bpEU?usp=sharing>) ,
