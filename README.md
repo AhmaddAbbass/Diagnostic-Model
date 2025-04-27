@@ -206,7 +206,7 @@ Synthetic samples now live in `/data/synthetic/`.
    docker stop derm-app
    docker rm derm-app
    ```
-```
+
 
 ---
 
