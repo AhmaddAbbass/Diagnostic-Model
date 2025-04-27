@@ -150,7 +150,7 @@ Synthetic samples now live in `/data/synthetic/`.
 
 ## 📂 Report & Notebooks
 
-- **Full Project Report (PDF)**: [Download here](<https://drive.google.com/uc?export=download&id=1l_dZ5z-d889mubzot3bb3gRelR-Z93Ck>)  
+- **Full Project Report (PDF)**: [Download here](<https://drive.google.com/uc?export=download&id=1L1BzVk2RKkz988kXdOTOrF3wuMQaFuzJ>)  
 - **Image Encoder Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1HaOTOd2-AUBsBcR0aKt0yVqZQIahK7dq?usp=sharing>)  
 - **Text Encoder Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1GiuA1kWxFO24JizPNPhjUhS9NKCtKTK-?usp=sharing>)  
 - **Fusion Head Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1T5JEcZo-JtXMUeKX5yxyRYm7SU9vD08s?usp=sharing>)
