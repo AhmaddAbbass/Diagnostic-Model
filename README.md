@@ -109,7 +109,7 @@ Synthetic samples now live in `/data/synthetic/`.
 - **Training set**: Only true pairs from `img_text/`  
 - **Initial accuracy**: ~ 33 % overall  
 - **Improvement 1**: Re-train image encoder → fusion jumps to ~ 40 %  
-- **Improvement 2**: Pair additional unpaired samples via ECDF methods (image_only ↔ text_only) → end result ~ 84 %  
+- **Improvement 2**: Pair additional unpaired samples via ECDF methods (image_only ↔ text_only) → end result ~ 83 %  
 
 [▶️ Colab Notebook: Train Fusion Head](<https://colab.research.google.com/drive/1T5JEcZo-JtXMUeKX5yxyRYm7SU9vD08s?usp=sharing>)
 
