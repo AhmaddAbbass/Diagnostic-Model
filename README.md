@@ -172,8 +172,43 @@ Synthetic samples now live in `/data/synthetic/`.
 
 - **Hard negative mining** in contrastive loss  
 - **Prompt-tuned LLM** for richer synthetic text  
-- **Ensemble stacking** of per-modality logits  
+- **Ensemble stacking** of per-modality logits
+
+### 🚀 Quickstart Guide (From Repo to Running the App)
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/AhmaddAbbass/Diagnostic-Model.git
+   cd Diagnostic-Model/application
+   ```
+
+2. **Build the Docker image**  
+   ```bash
+   docker build -t derm-mmmodal:latest .
+   ```
+
+3. **Run the Docker container**  
+   ```bash
+   docker run --rm -d \
+     --name derm-app \
+     -p 8000:8000 \
+     derm-mmmodal:latest
+   ```
+
+4. **Open the app in your browser**  
+   Navigate to:  
+   ```
+   http://localhost:8000
+   ```
+
+5. **Stop & clean up**  
+   ```bash
+   docker stop derm-app
+   docker rm derm-app
+   ```
+```
 
 ---
 
 Thank you for exploring Derm-MMModal! Feel free to open issues or submit pull requests for enhancements.
+
