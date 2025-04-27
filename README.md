@@ -55,22 +55,43 @@ Synthetic samples now live in `/data/synthetic/`.
 ```
 ├── fusion_head/            # Gated Cross-Attention fusion implementation
 │   ├── dataset.py
-│   ├── main.py
-│   └── model.py
-│   ├── requirements.txt
+│   ├── model.py
+│   ├── train.py
 │   ├── test.py
-│   └── train.py  
+│   ├── main.py
+│   └── requirements.txt
 │
 ├── image_encoder/          # Scratch-trained EfficientNet-B0 + SimCLR losses
-│   ├── encoder.py
-│   ├── losses.py
-│   └── sampler.py          # weighted sampling to correct class imbalance
+│   ├── requirements.txt
+│   ├── utils.py
+│   ├── summary.py
+│   ├── dataset.py
+│   ├── model.py
+│   ├── train_simclr.py
+│   ├── train_probe.py
+│   └── evaluate.py
 │
 ├── text_encoder/           # Scratch-trained Transformer text encoder
-│   ├── text encoder model.py
+│   ├── model.py
 │   ├── training.py
 │   ├── test.py
 │   └── Text_Encoder_README.txt
+│
+├── application/            # Deployed Flask + static frontend
+│   ├── backend/
+│   │   ├── app.py
+│   │   ├── inference.py
+│   │   ├── requirements.txt
+│   │   └── models/
+│   │       ├── effnet_simclr.pth
+│   │       ├── fusion_bundle.pt
+│   │       └── text_ckpt/      # ClinicalBERT weights + tokenizer files
+│   │
+│   └── frontend/
+│       ├── index.html
+│       ├── style.css
+│       └── script.js
+│
 └── README.md               # ← you’re here!
 ```
 
