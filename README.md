@@ -28,7 +28,7 @@ We organize our data into **three core modalities**:
 
 - **Image-Text (img_text)** (`/data/img_text/`)  
   ~3 000 paired samples.  
-  Original text was highly structured (spreadsheet-style); we applied `make_unstructured.py` to convert it into natural descriptions.
+  Original text was highly structured (spreadsheet-style); we applied `make_unstructured.py` to convert it into natural descriptions in ahmad_unstructured branch.
 
 - **Text-only** (`/data/text_only/`)  
   A scarce collection of free-form clinical notes (~500 samples) that guided our unstructuring logic and served as seeds for augmentation.
@@ -134,9 +134,11 @@ Synthetic samples now live in `/data/synthetic/`.
 - **Text Encoder Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1GiuA1kWxFO24JizPNPhjUhS9NKCtKTK-?usp=sharing>)  
 - **Fusion Head Notebook**: [Open in Colab](<https://colab.research.google.com/drive/1T5JEcZo-JtXMUeKX5yxyRYm7SU9vD08s?usp=sharing>)
 - **Data Preparation Notebooks**:
-- -   Databalancer using K-means [Open in Colab](<https://colab.research.google.com/drive/1ftwkx6G5C_PKZUxX60mh_Xg15CF9Nznw?authuser=1>) ,
-- -   Synthetic data generator  [Open in Colab](<https://colab.research.google.com/drive/1Ls1F_6LXzSmSIxf5DspKMksRabS_bpEU?usp=sharing>) ,
-- -   datacleaner [Open in Colab](<https://colab.research.google.com/drive/1OrnjgdNaMpeso44aDfWCZ2D7z9qLwy80?usp=sharing>)  
+  -   Databalancer using K-means [Open in Colab](<https://colab.research.google.com/drive/1ftwkx6G5C_PKZUxX60mh_Xg15CF9Nznw?authuser=1>) ,
+  -   Synthetic data generator  [Open in Colab](<https://colab.research.google.com/drive/1Ls1F_6LXzSmSIxf5DspKMksRabS_bpEU?usp=sharing>) ,
+  -   datacleaner [Open in Colab](<https://colab.research.google.com/drive/1OrnjgdNaMpeso44aDfWCZ2D7z9qLwy80?usp=sharing>)
+  -   datapreprocessing [Open in Colab](<https://colab.research.google.com/drive/1q7Y6s6BJjMFmayGe6tX_xbBJ3mKigz4I?usp=sharing>)
+  -   dataloading  [Open in Colab](<https://colab.research.google.com/drive/1PoGXSypnftOo9JD6MRIEPiVVzAVMoOVG?usp=sharing>)
                                 
 
 ---
